@@ -1,0 +1,709 @@
+{
+  "events": {
+    "label": "Agenda",
+    "fields": [
+      {
+        "name": "title",
+        "label": "Kegiatan",
+        "type": "text",
+        "required": true,
+        "choices": null
+      },
+      {
+        "name": "date",
+        "label": "Tanggal",
+        "type": "date",
+        "required": true,
+        "choices": null
+      },
+      {
+        "name": "time",
+        "label": "Waktu",
+        "type": "time",
+        "required": false,
+        "choices": null
+      },
+      {
+        "name": "division",
+        "label": "Divisi",
+        "type": "select",
+        "required": true,
+        "choices": [
+          "Pengurus Inti",
+          "Ketahanan",
+          "Kewirausahaan",
+          "Seni Budaya",
+          "Kesehatan",
+          "Keolahragaan",
+          "Sosial",
+          "Humas",
+          "Keagamaan"
+        ]
+      },
+      {
+        "name": "location",
+        "label": "Lokasi",
+        "type": "text",
+        "required": false,
+        "choices": null
+      },
+      {
+        "name": "description",
+        "label": "Deskripsi",
+        "type": "textarea",
+        "required": false,
+        "choices": null
+      }
+    ]
+  },
+  "tasks": {
+    "label": "Program kerja",
+    "fields": [
+      {
+        "name": "title",
+        "label": "Nama program",
+        "type": "text",
+        "required": true,
+        "choices": null
+      },
+      {
+        "name": "division",
+        "label": "Divisi",
+        "type": "select",
+        "required": true,
+        "choices": [
+          "Pengurus Inti",
+          "Ketahanan",
+          "Kewirausahaan",
+          "Seni Budaya",
+          "Kesehatan",
+          "Keolahragaan",
+          "Sosial",
+          "Humas",
+          "Keagamaan"
+        ]
+      },
+      {
+        "name": "owner",
+        "label": "Penanggung jawab",
+        "type": "text",
+        "required": false,
+        "choices": null
+      },
+      {
+        "name": "deadline",
+        "label": "Target selesai",
+        "type": "date",
+        "required": false,
+        "choices": null
+      },
+      {
+        "name": "status",
+        "label": "Status",
+        "type": "select",
+        "required": true,
+        "choices": [
+          "Rencana",
+          "Berjalan",
+          "Selesai"
+        ]
+      },
+      {
+        "name": "description",
+        "label": "Deskripsi",
+        "type": "textarea",
+        "required": false,
+        "choices": null
+      }
+    ]
+  },
+  "finance": {
+    "label": "Keuangan",
+    "fields": [
+      {
+        "name": "date",
+        "label": "Tanggal",
+        "type": "date",
+        "required": true,
+        "choices": null
+      },
+      {
+        "name": "type",
+        "label": "Jenis",
+        "type": "select",
+        "required": true,
+        "choices": [
+          "Masuk",
+          "Keluar"
+        ]
+      },
+      {
+        "name": "amount",
+        "label": "Nominal rupiah",
+        "type": "number",
+        "required": true,
+        "choices": null
+      },
+      {
+        "name": "category",
+        "label": "Kategori",
+        "type": "text",
+        "required": true,
+        "choices": null
+      },
+      {
+        "name": "description",
+        "label": "Keterangan",
+        "type": "text",
+        "required": true,
+        "choices": null
+      }
+    ]
+  },
+  "letters": {
+    "label": "Arsip surat",
+    "fields": [
+      {
+        "name": "number",
+        "label": "Nomor surat",
+        "type": "text",
+        "required": true,
+        "choices": null
+      },
+      {
+        "name": "subject",
+        "label": "Perihal",
+        "type": "text",
+        "required": true,
+        "choices": null
+      },
+      {
+        "name": "date",
+        "label": "Tanggal",
+        "type": "date",
+        "required": true,
+        "choices": null
+      },
+      {
+        "name": "type",
+        "label": "Jenis",
+        "type": "select",
+        "required": true,
+        "choices": [
+          "Masuk",
+          "Keluar"
+        ]
+      },
+      {
+        "name": "contact",
+        "label": "Pengirim / tujuan",
+        "type": "text",
+        "required": true,
+        "choices": null
+      },
+      {
+        "name": "notes",
+        "label": "Catatan",
+        "type": "textarea",
+        "required": false,
+        "choices": null
+      }
+    ]
+  },
+  "announcements": {
+    "label": "Pengumuman",
+    "fields": [
+      {
+        "name": "title",
+        "label": "Judul",
+        "type": "text",
+        "required": true,
+        "choices": null
+      },
+      {
+        "name": "date",
+        "label": "Tanggal",
+        "type": "date",
+        "required": true,
+        "choices": null
+      },
+      {
+        "name": "content",
+        "label": "Isi",
+        "type": "textarea",
+        "required": true,
+        "choices": null
+      }
+    ]
+  },
+  "piket": {
+    "label": "Jadwal piket",
+    "division": "Ketahanan",
+    "fields": [
+      {
+        "name": "date",
+        "label": "Tanggal",
+        "type": "date",
+        "required": true,
+        "choices": null
+      },
+      {
+        "name": "area",
+        "label": "Area",
+        "type": "text",
+        "required": true,
+        "choices": null
+      },
+      {
+        "name": "petugas",
+        "label": "Petugas",
+        "type": "text",
+        "required": true,
+        "choices": null
+      }
+    ]
+  },
+  "patroli": {
+    "label": "Patroli",
+    "division": "Ketahanan",
+    "fields": [
+      {
+        "name": "date",
+        "label": "Tanggal",
+        "type": "date",
+        "required": true,
+        "choices": null
+      },
+      {
+        "name": "temuan",
+        "label": "Temuan",
+        "type": "textarea",
+        "required": true,
+        "choices": null
+      },
+      {
+        "name": "tindak_lanjut",
+        "label": "Tindak lanjut",
+        "type": "textarea",
+        "required": true,
+        "choices": null
+      }
+    ]
+  },
+  "produk": {
+    "label": "Produk & stok",
+    "division": "Kewirausahaan",
+    "fields": [
+      {
+        "name": "nama",
+        "label": "Produk",
+        "type": "text",
+        "required": true,
+        "choices": null
+      },
+      {
+        "name": "harga",
+        "label": "Harga",
+        "type": "number",
+        "required": true,
+        "choices": null
+      },
+      {
+        "name": "stok",
+        "label": "Stok",
+        "type": "number",
+        "required": true,
+        "choices": null
+      }
+    ]
+  },
+  "penjualan": {
+    "label": "Penjualan",
+    "division": "Kewirausahaan",
+    "fields": [
+      {
+        "name": "date",
+        "label": "Tanggal",
+        "type": "date",
+        "required": true,
+        "choices": null
+      },
+      {
+        "name": "produk",
+        "label": "Produk",
+        "type": "text",
+        "required": true,
+        "choices": null
+      },
+      {
+        "name": "jumlah",
+        "label": "Jumlah",
+        "type": "number",
+        "required": true,
+        "choices": null
+      },
+      {
+        "name": "harga",
+        "label": "Harga satuan",
+        "type": "number",
+        "required": true,
+        "choices": null
+      }
+    ]
+  },
+  "latihan": {
+    "label": "Latihan",
+    "division": "Seni Budaya",
+    "fields": [
+      {
+        "name": "date",
+        "label": "Tanggal",
+        "type": "date",
+        "required": true,
+        "choices": null
+      },
+      {
+        "name": "kegiatan",
+        "label": "Kegiatan",
+        "type": "text",
+        "required": true,
+        "choices": null
+      },
+      {
+        "name": "peserta",
+        "label": "Peserta",
+        "type": "text",
+        "required": true,
+        "choices": null
+      }
+    ]
+  },
+  "karya": {
+    "label": "Karya",
+    "division": "Seni Budaya",
+    "fields": [
+      {
+        "name": "judul",
+        "label": "Judul",
+        "type": "text",
+        "required": true,
+        "choices": null
+      },
+      {
+        "name": "kreator",
+        "label": "Kreator",
+        "type": "text",
+        "required": true,
+        "choices": null
+      },
+      {
+        "name": "status",
+        "label": "Status",
+        "type": "select",
+        "required": true,
+        "choices": [
+          "Rencana",
+          "Berjalan",
+          "Selesai"
+        ]
+      }
+    ]
+  },
+  "uks": {
+    "label": "Stok UKS",
+    "division": "Kesehatan",
+    "fields": [
+      {
+        "name": "nama",
+        "label": "Barang",
+        "type": "text",
+        "required": true,
+        "choices": null
+      },
+      {
+        "name": "jumlah",
+        "label": "Jumlah",
+        "type": "number",
+        "required": true,
+        "choices": null
+      },
+      {
+        "name": "kedaluwarsa",
+        "label": "Kedaluwarsa",
+        "type": "date",
+        "required": false,
+        "choices": null
+      }
+    ]
+  },
+  "kampanye": {
+    "label": "Kampanye kesehatan",
+    "division": "Kesehatan",
+    "fields": [
+      {
+        "name": "date",
+        "label": "Tanggal",
+        "type": "date",
+        "required": true,
+        "choices": null
+      },
+      {
+        "name": "tema",
+        "label": "Tema",
+        "type": "text",
+        "required": true,
+        "choices": null
+      },
+      {
+        "name": "status",
+        "label": "Status",
+        "type": "select",
+        "required": true,
+        "choices": [
+          "Rencana",
+          "Berjalan",
+          "Selesai"
+        ]
+      }
+    ]
+  },
+  "pertandingan": {
+    "label": "Pertandingan",
+    "division": "Keolahragaan",
+    "fields": [
+      {
+        "name": "date",
+        "label": "Tanggal",
+        "type": "date",
+        "required": true,
+        "choices": null
+      },
+      {
+        "name": "cabang",
+        "label": "Cabang",
+        "type": "text",
+        "required": true,
+        "choices": null
+      },
+      {
+        "name": "hasil",
+        "label": "Hasil",
+        "type": "text",
+        "required": false,
+        "choices": null
+      }
+    ]
+  },
+  "alat": {
+    "label": "Peralatan",
+    "division": "Keolahragaan",
+    "fields": [
+      {
+        "name": "nama",
+        "label": "Alat",
+        "type": "text",
+        "required": true,
+        "choices": null
+      },
+      {
+        "name": "jumlah",
+        "label": "Jumlah",
+        "type": "number",
+        "required": true,
+        "choices": null
+      },
+      {
+        "name": "kondisi",
+        "label": "Kondisi",
+        "type": "select",
+        "required": true,
+        "choices": [
+          "Baik",
+          "Rusak",
+          "Perlu perbaikan"
+        ]
+      }
+    ]
+  },
+  "aksi": {
+    "label": "Aksi sosial",
+    "division": "Sosial",
+    "fields": [
+      {
+        "name": "date",
+        "label": "Tanggal",
+        "type": "date",
+        "required": true,
+        "choices": null
+      },
+      {
+        "name": "kegiatan",
+        "label": "Kegiatan",
+        "type": "text",
+        "required": true,
+        "choices": null
+      },
+      {
+        "name": "sasaran",
+        "label": "Sasaran",
+        "type": "text",
+        "required": true,
+        "choices": null
+      }
+    ]
+  },
+  "donasi": {
+    "label": "Donasi",
+    "division": "Sosial",
+    "fields": [
+      {
+        "name": "date",
+        "label": "Tanggal",
+        "type": "date",
+        "required": true,
+        "choices": null
+      },
+      {
+        "name": "pihak",
+        "label": "Donatur / penerima",
+        "type": "text",
+        "required": true,
+        "choices": null
+      },
+      {
+        "name": "jumlah",
+        "label": "Jumlah / nilai",
+        "type": "number",
+        "required": true,
+        "choices": null
+      },
+      {
+        "name": "catatan",
+        "label": "Catatan",
+        "type": "textarea",
+        "required": false,
+        "choices": null
+      }
+    ]
+  },
+  "konten": {
+    "label": "Kalender konten",
+    "division": "Humas",
+    "fields": [
+      {
+        "name": "date",
+        "label": "Tanggal",
+        "type": "date",
+        "required": true,
+        "choices": null
+      },
+      {
+        "name": "judul",
+        "label": "Judul",
+        "type": "text",
+        "required": true,
+        "choices": null
+      },
+      {
+        "name": "platform",
+        "label": "Platform",
+        "type": "text",
+        "required": true,
+        "choices": null
+      },
+      {
+        "name": "status",
+        "label": "Status",
+        "type": "select",
+        "required": true,
+        "choices": [
+          "Ide",
+          "Produksi",
+          "Siap",
+          "Tayang"
+        ]
+      }
+    ]
+  },
+  "mitra": {
+    "label": "Mitra",
+    "division": "Humas",
+    "fields": [
+      {
+        "name": "nama",
+        "label": "Nama",
+        "type": "text",
+        "required": true,
+        "choices": null
+      },
+      {
+        "name": "instansi",
+        "label": "Instansi",
+        "type": "text",
+        "required": true,
+        "choices": null
+      },
+      {
+        "name": "kontak",
+        "label": "Kontak",
+        "type": "text",
+        "required": true,
+        "choices": null
+      }
+    ]
+  },
+  "ibadah": {
+    "label": "Jadwal ibadah",
+    "division": "Keagamaan",
+    "fields": [
+      {
+        "name": "date",
+        "label": "Tanggal",
+        "type": "date",
+        "required": true,
+        "choices": null
+      },
+      {
+        "name": "kegiatan",
+        "label": "Kegiatan",
+        "type": "text",
+        "required": true,
+        "choices": null
+      },
+      {
+        "name": "petugas",
+        "label": "Petugas",
+        "type": "text",
+        "required": true,
+        "choices": null
+      }
+    ]
+  },
+  "kajian": {
+    "label": "Kajian",
+    "division": "Keagamaan",
+    "fields": [
+      {
+        "name": "date",
+        "label": "Tanggal",
+        "type": "date",
+        "required": true,
+        "choices": null
+      },
+      {
+        "name": "tema",
+        "label": "Tema",
+        "type": "text",
+        "required": true,
+        "choices": null
+      },
+      {
+        "name": "pemateri",
+        "label": "Pemateri",
+        "type": "text",
+        "required": true,
+        "choices": null
+      }
+    ]
+  }
+}

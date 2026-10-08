@@ -1,0 +1,335 @@
+[
+  {
+    "username": "chandra.alfindodes",
+    "password": "pbkdf2$240000$42a4c6a25b0b697795c07d087e5cdb90$2794d98746b5e4f19376b7fdead4cead16a930d3c739d53f9b44c29b24cb1b8c",
+    "name": "Chandra Alfindodes",
+    "kelas": "",
+    "role": "pembina",
+    "division": "Pembina",
+    "jabatan": "Pembina"
+  },
+  {
+    "username": "andi.quinsha",
+    "password": "pbkdf2$240000$2312ea8014a8e4581a0d24bacac97148$fe62921e7d63eb9d437b67f043721b5f934b585ecf882ffac28313ffd13545ce",
+    "name": "Andi Quinsha Asyahira",
+    "kelas": "9C",
+    "role": "ketua",
+    "division": "Pengurus Inti",
+    "jabatan": "Ketua OSIS"
+  },
+  {
+    "username": "sabiq.tiftazani",
+    "password": "pbkdf2$240000$b319e299b0598cdfbcf5dc211038c03c$7a0ced144c4cb3ba5f5fc7aff7dbcf47191684a71a491f31927a05d58f4cf8ff",
+    "name": "Sabiq Tiftazani Haikal",
+    "kelas": "9B",
+    "role": "wakil",
+    "division": "Pengurus Inti",
+    "jabatan": "Wakil Ketua"
+  },
+  {
+    "username": "alana.puri",
+    "password": "pbkdf2$240000$917da301346e016b9918d5334f03a09b$34e3db1a3b045b92960677ea249c08333c662761bc9783a233083f9705d2810f",
+    "name": "Alana Puri Syafiqah",
+    "kelas": "9B",
+    "role": "sekretaris",
+    "division": "Pengurus Inti",
+    "jabatan": "Sekretaris"
+  },
+  {
+    "username": "yumna.adifa",
+    "password": "pbkdf2$240000$062f2560ffab14124b3e2047b13c598e$af70e162c511692c981d23fe5d34f1b5a731c23410bccad2cc0c81cfb174f2ea",
+    "name": "Yumna Adifa",
+    "kelas": "8C",
+    "role": "sekretaris",
+    "division": "Pengurus Inti",
+    "jabatan": "Sekretaris"
+  },
+  {
+    "username": "siti.shifa",
+    "password": "pbkdf2$240000$d405fa5d06ef60b94d04252138ec5e42$c551037288e53b49b1f80e79c724ca323ae646c4942ba2411d30de2b9edebd72",
+    "name": "Siti Shifa Alya Hapsary",
+    "kelas": "9B",
+    "role": "bendahara",
+    "division": "Pengurus Inti",
+    "jabatan": "Bendahara"
+  },
+  {
+    "username": "abdurrahman.al",
+    "password": "pbkdf2$240000$c370008c15603fe572612909c1fa4a45$f93ab4d58f2763b779426e4e37d0a78994a92a8bae2eac8bf08abbeef013d1d2",
+    "name": "Abdurrahman al ghafiqi",
+    "kelas": "8C",
+    "role": "bendahara",
+    "division": "Pengurus Inti",
+    "jabatan": "Bendahara"
+  },
+  {
+    "username": "fathan.ghazi",
+    "password": "pbkdf2$240000$bdd6ee226cd8a5c27f3e1fcf56a0a69b$de662a9c68555ccf6cf7c8e5d486b3f1a575777a128a9e6e46b6603cea7b779b",
+    "name": "Fathan Ghazi Fadiran",
+    "kelas": "9B",
+    "role": "ketua_divisi",
+    "division": "Ketahanan",
+    "jabatan": "Ketua Divisi"
+  },
+  {
+    "username": "abiy.farras",
+    "password": "pbkdf2$240000$5e703b073e7638c327db9c517701244f$8aec0a76ae256d5ae2978b22bca1514164b838e3f5bfdc194e1244eb785dff00",
+    "name": "Abiy farras valiant toraputra",
+    "kelas": "8A",
+    "role": "anggota",
+    "division": "Ketahanan",
+    "jabatan": "Anggota"
+  },
+  {
+    "username": "shazia.dzakiya",
+    "password": "pbkdf2$240000$98c13e4bffcbec271148647b3900329c$08cb28a37c4775582036801b5c0c3faec64effac4195f7c9db9539c630dbcd24",
+    "name": "Shazia Dzakiya Helmi",
+    "kelas": "8A",
+    "role": "anggota",
+    "division": "Ketahanan",
+    "jabatan": "Anggota"
+  },
+  {
+    "username": "alya.nadhira",
+    "password": "pbkdf2$240000$76ffdb108630f47cca89fe832940979c$c64dc4b2765d25916901a7620940ca99f187d39644018b294e54945df651943b",
+    "name": "Alya Nadhira Rosadi",
+    "kelas": "9B",
+    "role": "anggota",
+    "division": "Ketahanan",
+    "jabatan": "Anggota"
+  },
+  {
+    "username": "muhammad.rafi",
+    "password": "pbkdf2$240000$6b3ff20a20a65bda018b3f42d2005d1e$1cad84581761427561e45cddef8106975ddc65717076036e78add12faa92079a",
+    "name": "Muhammad Rafi Alfarezi",
+    "kelas": "9B",
+    "role": "ketua_divisi",
+    "division": "Kewirausahaan",
+    "jabatan": "Ketua Divisi"
+  },
+  {
+    "username": "muhammad.fadhil",
+    "password": "pbkdf2$240000$87e6e515d40facba380c6f9bd291674c$39d6b14766f95ac933528516751b4d06304272420a09b65b480fe5e646343a01",
+    "name": "Muhammad Fadhil Saadi Zahid",
+    "kelas": "8D",
+    "role": "anggota",
+    "division": "Kewirausahaan",
+    "jabatan": "Anggota"
+  },
+  {
+    "username": "aqila.ghassani",
+    "password": "pbkdf2$240000$2cc4a89455fefc7c6aab6e898671ad6f$3517fe266e6169a6a096eac24f6d8ca872391f791c542c32e537c34f20b04459",
+    "name": "Aqila Ghassani Zaima",
+    "kelas": "9C",
+    "role": "anggota",
+    "division": "Kewirausahaan",
+    "jabatan": "Anggota"
+  },
+  {
+    "username": "khalisa.nasywa",
+    "password": "pbkdf2$240000$5ca71d65349f1788a7e1e179f1582cdb$deb44c67392cc187374dca86b3c8c9bee2c698042bdff304511bd4a55461ee04",
+    "name": "Khalisa Nasywa Sabrina",
+    "kelas": "9C",
+    "role": "ketua_divisi",
+    "division": "Seni Budaya",
+    "jabatan": "Ketua Divisi"
+  },
+  {
+    "username": "raden.ajeng",
+    "password": "pbkdf2$240000$f3df836b6514eaacf1490cba015bb162$0c82deea9d6b78731630b36db09ac7260e7af79c84646f90af131604bfea448c",
+    "name": "Raden Ajeng Nabila Putri",
+    "kelas": "8D",
+    "role": "anggota",
+    "division": "Seni Budaya",
+    "jabatan": "Anggota"
+  },
+  {
+    "username": "bintang.alfatih",
+    "password": "pbkdf2$240000$a9e7be2efbfdcd031a35371223bd7755$d78b4df4d19760bdcf11ec39de2380b2ec71cb4ad6abb2cdb3cb44dae289da9e",
+    "name": "Bintang Alfatih Setiawan",
+    "kelas": "8A",
+    "role": "anggota",
+    "division": "Seni Budaya",
+    "jabatan": "Anggota"
+  },
+  {
+    "username": "aimario.muhammad",
+    "password": "pbkdf2$240000$a8f3ca9c0d1683c3ef9f2cdb4019c107$9fde9572eb130cccfd7f72a5da96a6f01a792fd3c12176d176848f9ca0b165ac",
+    "name": "Aimario Muhammad Jibril",
+    "kelas": "9B",
+    "role": "ketua_divisi",
+    "division": "Kesehatan",
+    "jabatan": "Ketua Divisi"
+  },
+  {
+    "username": "adli.rafa",
+    "password": "pbkdf2$240000$53f19c8584463ce192d026871c2efe5d$eca87aaf613610f81e1d9de48887c857f1035277b8d794bb335ea81d61dcf088",
+    "name": "Adli Rafa Zabir Gunardhie",
+    "kelas": "",
+    "role": "anggota",
+    "division": "Kesehatan",
+    "jabatan": "Anggota"
+  },
+  {
+    "username": "rayya.azzahra",
+    "password": "pbkdf2$240000$2320572e1b4246c9c18e223cbe198fbc$1dc6044e43d2befba37ffd660481f37ce7de50f9c0cf5d41a2b1830296bf4202",
+    "name": "Rayya Azzahra Shafiyya",
+    "kelas": "8C",
+    "role": "anggota",
+    "division": "Kesehatan",
+    "jabatan": "Anggota"
+  },
+  {
+    "username": "karenina.ludmilla",
+    "password": "pbkdf2$240000$513ff9990f0f31945e662b6316da42e9$6e10f9f730d1113322c94d474b6371ad7d491f370c3c500fd24c55cb6ee3b1b6",
+    "name": "Karenina Ludmilla Ahsani",
+    "kelas": "9E",
+    "role": "anggota",
+    "division": "Kesehatan",
+    "jabatan": "Anggota"
+  },
+  {
+    "username": "otsman.andriadi",
+    "password": "pbkdf2$240000$998b0d19c7aa0fcfaead8ff5c6be688b$bf095f8ba985d601eff34c638735bf67ab4cd45d0b997e33293d8f917b5f5b19",
+    "name": "Otsman Andriadi",
+    "kelas": "9C",
+    "role": "ketua_divisi",
+    "division": "Keolahragaan",
+    "jabatan": "Ketua Divisi"
+  },
+  {
+    "username": "farras.shahira",
+    "password": "pbkdf2$240000$0e7e01cbecf76b75d548b7263c3c3363$583e07eecc44b29fa3700f6305aa881673d47402b84463de23e6de665d092be4",
+    "name": "Farras Shahira",
+    "kelas": "8C",
+    "role": "anggota",
+    "division": "Keolahragaan",
+    "jabatan": "Anggota"
+  },
+  {
+    "username": "qaesar.sathiraf",
+    "password": "pbkdf2$240000$e1ae76820e50e8a47c91bb2ded2d1a0c$806e2a1f1dcd7eca6fb3e7352296330cc99eacc7fb03e3b3d4531d7fc0833be6",
+    "name": "Qaesar Sathiraf Aditama",
+    "kelas": "",
+    "role": "anggota",
+    "division": "Keolahragaan",
+    "jabatan": "Anggota"
+  },
+  {
+    "username": "maher.mumtaz",
+    "password": "pbkdf2$240000$44d82512418ce88728babe01bcc183b6$e3a6e2d2720663959f7491b870279da8b3874fc061506805cd5fdcbfe3f0cb15",
+    "name": "Maher Mumtaz Negara",
+    "kelas": "",
+    "role": "anggota",
+    "division": "Keolahragaan",
+    "jabatan": "Anggota"
+  },
+  {
+    "username": "khairan.afif",
+    "password": "pbkdf2$240000$9a3f6a8564d07816630c73627bcd5895$4ffa83ea41afd2932d249db45cd613973d0dba9c0b93ffddbb2a3cd442a438fc",
+    "name": "Khairan Afif Anugerah",
+    "kelas": "9A",
+    "role": "ketua_divisi",
+    "division": "Sosial",
+    "jabatan": "Ketua Divisi"
+  },
+  {
+    "username": "muhammad.alkhalifi",
+    "password": "pbkdf2$240000$f213ca5960418bc5f2d9896d318d18af$29a4f827a63a7956cd88e87c1d77fe29ca2beefcedc44693bc5c6234fde56861",
+    "name": "Muhammad Alkhalifi Attaufik",
+    "kelas": "8C",
+    "role": "anggota",
+    "division": "Sosial",
+    "jabatan": "Anggota"
+  },
+  {
+    "username": "aurell.rizkyah",
+    "password": "pbkdf2$240000$cfc44da9d5916a5a8a005268b35168b4$305840dc3ece7780efe17335c058d7e3751a78847cee1ab785ef46ba52809c7f",
+    "name": "Aurell Rizkyah",
+    "kelas": "8B",
+    "role": "anggota",
+    "division": "Sosial",
+    "jabatan": "Anggota"
+  },
+  {
+    "username": "aylashanum.zhaliha",
+    "password": "pbkdf2$240000$319be034c2774f0c63744afca3ea4629$e17be43fd8fa5f98676e0f8d64e6e2d8759b517b4fe5b25a7094fee2cfa92c19",
+    "name": "Aylashanum Zhaliha Irsyad",
+    "kelas": "8B",
+    "role": "anggota",
+    "division": "Sosial",
+    "jabatan": "Anggota"
+  },
+  {
+    "username": "kayla.khairani",
+    "password": "pbkdf2$240000$004ad9354d93ae54a63c4669015807b9$8caebb6e0c7ef26b89ddd85211dfffc9f8fac122538c85cefa27454d6628a68a",
+    "name": "Kayla Khairani Putri",
+    "kelas": "9C",
+    "role": "ketua_divisi",
+    "division": "Humas",
+    "jabatan": "Ketua Divisi"
+  },
+  {
+    "username": "sachie.pratami",
+    "password": "pbkdf2$240000$f5ac331f55143d58bcca9e329f9cc80f$49293cf3f8026c9b46261b0664d74932c0cef8a5c77c591e6000751804305cd3",
+    "name": "Sachie Pratami Wilopo",
+    "kelas": "8D",
+    "role": "anggota",
+    "division": "Humas",
+    "jabatan": "Anggota"
+  },
+  {
+    "username": "mikaeel.adam",
+    "password": "pbkdf2$240000$e39908beecda562bf31712106568a043$2a0711b97e4847e5b09f5fd53567e77c1359eeb47fed4e85299db42cc41a56da",
+    "name": "Mikaeel Adam Al Adssa",
+    "kelas": "8D",
+    "role": "anggota",
+    "division": "Humas",
+    "jabatan": "Anggota"
+  },
+  {
+    "username": "tsabitah.fadiyah",
+    "password": "pbkdf2$240000$045a5c960e6e037e84b994dd38b2be63$69a9229c6a3402e4fa006a43e96cab1e46e14667c64689507eb6d58bce914ccc",
+    "name": "Tsabitah Fadiyah Fauzan",
+    "kelas": "8A",
+    "role": "anggota",
+    "division": "Humas",
+    "jabatan": "Anggota"
+  },
+  {
+    "username": "fernando.fawwaz",
+    "password": "pbkdf2$240000$3033d05d5ffe379c0f24d50102b933fc$314c824c905b9a796b92a7d9cdccdce0e59c7ffe786b6f9f2bffbc8e24f0a616",
+    "name": "Fernando Fawwaz Gunawan",
+    "kelas": "9A",
+    "role": "ketua_divisi",
+    "division": "Keagamaan",
+    "jabatan": "Ketua Divisi"
+  },
+  {
+    "username": "queena.azzahra",
+    "password": "pbkdf2$240000$dea71866b4b0c71711dcc757eb468bd3$9effeb90417efa0b56ebf10a65b854ec6ba4f289274fead2de4c4034fe7cdbcb",
+    "name": "Queena Azzahra",
+    "kelas": "8B",
+    "role": "anggota",
+    "division": "Keagamaan",
+    "jabatan": "Anggota"
+  },
+  {
+    "username": "shereen.afifah",
+    "password": "pbkdf2$240000$6d11b819635dfc2b9b607887029cfcc5$15832bb9e1e77f9d12a1d6b359bc5c2a14f044076b42136d0e22f60bee5c746e",
+    "name": "Shereen Afifah Abdillah",
+    "kelas": "8B",
+    "role": "anggota",
+    "division": "Keagamaan",
+    "jabatan": "Anggota"
+  },
+  {
+    "username": "omar.athariz",
+    "password": "pbkdf2$240000$91d9ca1616d620b786b49766a0b40dea$7376ea5955e3a128e20bb1c0a900c20cba45ef0084d1af9149cdf3ab35bfcdc0",
+    "name": "Omar Athariz Calief",
+    "kelas": "",
+    "role": "anggota",
+    "division": "Keagamaan",
+    "jabatan": "Anggota"
+  }
+]

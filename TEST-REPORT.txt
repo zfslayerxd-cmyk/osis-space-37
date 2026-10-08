@@ -1,0 +1,25 @@
+PASS Python syntax: app.py
+PASS Python syntax: core.py
+PASS Python syntax: tests/test_core.py
+PASS JSON: kinds.json
+PASS JSON: seed_accounts.json
+PASS JSON: vercel.json
+PASS 37 unique accounts; 37 credential/hash matches; 21 modules / 8 divisions
+test_admin (test_core.CoreTests.test_admin) ... ok
+test_date_and_select (test_core.CoreTests.test_date_and_select) ... ok
+test_finance (test_core.CoreTests.test_finance) ... ok
+test_leader_boundaries (test_core.CoreTests.test_leader_boundaries) ... ok
+test_member_division (test_core.CoreTests.test_member_division) ... ok
+test_password (test_core.CoreTests.test_password) ... ok
+test_required (test_core.CoreTests.test_required) ... ok
+test_unknown_kind (test_core.CoreTests.test_unknown_kind) ... ok
+test_wakil (test_core.CoreTests.test_wakil) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.138s
+
+OK
+PASS JavaScript syntax (node --check)
+NOT RUN Flask route/integration tests: Flask and psycopg unavailable in build environment.
+NOT RUN PostgreSQL live integration, Vercel deploy, browser/mobile acceptance.
+No external repository or database changes performed.
